@@ -1,0 +1,17 @@
+﻿Build started 21.02.2019 9:30:22.
+     1>Project "C:\Users\Student\Desktop\YareYare\Project1\Project1\Project1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\Users\Student\Desktop\YareYare\boost_1_69_0 /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D TEST /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"TEST\\" /Fd"TEST\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt test.cpp
+         test.cpp
+     1>c:\users\student\desktop\yareyare\project1\project1\test.cpp(8): warning C4822: 'number_It_20_to_string::test_case1::test_method' : local class member function does not have a body
+     1>c:\users\student\desktop\yareyare\project1\project1\test.cpp(8): error C2267: 'test_case1_invoker' : static functions with block scope are illegal
+     1>c:\users\student\desktop\yareyare\project1\project1\test.cpp(8): error C2601: 'test_case1_invoker' : local function definitions are illegal
+                 c:\users\student\desktop\yareyare\project1\project1\numbers.h(34): this line contains a '{' which has not yet been matched
+     1>c:\users\student\desktop\yareyare\project1\project1\test.cpp(9): error C2601: 'number_It_20_to_string::test_case1::test_method' : local function definitions are illegal
+                 c:\users\student\desktop\yareyare\project1\project1\numbers.h(34): this line contains a '{' which has not yet been matched
+     1>c:\users\student\desktop\yareyare\project1\project1\test.cpp(15): fatal error C1075: end of file found before the left brace '{' at 'c:\users\student\desktop\yareyare\project1\project1\numbers.h(34)' was matched
+     1>Done Building Project "C:\Users\Student\Desktop\YareYare\Project1\Project1\Project1.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:04.67
