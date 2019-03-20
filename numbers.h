@@ -9,16 +9,16 @@ if  (((number/10) < 10)&&((number/10) >2) ){
 	int n = number/10;
 	switch(n)
 	{
-	case 1: answer = "двадцать"; break;
-	case 2: answer = "двадцать один"; break;
-	case 3: answer = "двадцать два"; break;
-	case 4: answer = "двадцать три"; break;
-	case 5: answer = "четыре"; break;
-	case 6: answer = "пять"; break;
-	case 7: answer = "шесть"; break;
-	case 8: answer = "семь"; break;
-	case 9: answer = "восемь"; break;
-	case 10: answer = "девять"; break;
+	case 1: answer = "РґРІР°РґС†Р°С‚СЊ"; break;
+	case 2: answer = "РґРІР°РґС†Р°С‚СЊ РѕРґРёРЅ"; break;
+	case 3: answer = "РґРІР°РґС†Р°С‚СЊ РґРІР°"; break;
+	case 4: answer = "РґРІР°РґС†Р°С‚СЊ С‚СЂРё"; break;
+	case 5: answer = "С‡РµС‚С‹СЂРµ"; break;
+	case 6: answer = "РїСЏС‚СЊ"; break;
+	case 7: answer = "С€РµСЃС‚СЊ"; break;
+	case 8: answer = "СЃРµРјСЊ"; break;
+	case 9: answer = "РІРѕСЃРµРјСЊ"; break;
+	case 10: answer = "РґРµРІСЏС‚СЊ"; break;
 	default: break;
 
 
@@ -32,26 +32,26 @@ if  (((number/10) < 10)&&((number/10) >2) ){
 	if (number < 20){
 	switch(number)
 	{
-		case 0: answer = "нуль"; break;
-	case 1: answer = "один"; break;
-	case 2: answer = "два"; break;
-		case 3: answer = "три"; break;
-	case 4: answer = "четыре"; break;
-		case 5: answer = "пять"; break;
-	case 6: answer = "шесть"; break;
-		case 7: answer = "семь"; break;
-	case 8: answer = "восемь"; break;
-		case 9: answer = "девять"; break;
-	case 10: answer = "десяь"; break;
-		case 11: answer = "одиннадцать"; break;
-	case 12: answer = "двенадцать"; break;
-		case 13: answer = "тринадцать"; break;
-	case 14: answer = "четырнадцать"; break;
-		case 15: answer = "пятнадцать"; break;
-	case 16: answer = "шестьнадцать"; break;
-		case 17: answer = "семьнадцать"; break;
-	case 18: answer = "восемьнадцать"; break;
-		case 19: answer = "девятнадцать"; break;
+		case 0: answer = "РЅСѓР»СЊ"; break;
+	case 1: answer = "РѕРґРёРЅ"; break;
+	case 2: answer = "РґРІР°"; break;
+		case 3: answer = "С‚СЂРё"; break;
+	case 4: answer = "С‡РµС‚С‹СЂРµ"; break;
+		case 5: answer = "РїСЏС‚СЊ"; break;
+	case 6: answer = "С€РµСЃС‚СЊ"; break;
+		case 7: answer = "СЃРµРјСЊ"; break;
+	case 8: answer = "РІРѕСЃРµРјСЊ"; break;
+		case 9: answer = "РґРµРІСЏС‚СЊ"; break;
+	case 10: answer = "РґРµСЃСЏСЊ"; break;
+		case 11: answer = "РѕРґРёРЅРЅР°РґС†Р°С‚СЊ"; break;
+	case 12: answer = "РґРІРµРЅР°РґС†Р°С‚СЊ"; break;
+		case 13: answer = "С‚СЂРёРЅР°РґС†Р°С‚СЊ"; break;
+	case 14: answer = "С‡РµС‚С‹СЂРЅР°РґС†Р°С‚СЊ"; break;
+		case 15: answer = "РїСЏС‚РЅР°РґС†Р°С‚СЊ"; break;
+	case 16: answer = "С€РµСЃС‚СЊРЅР°РґС†Р°С‚СЊ"; break;
+		case 17: answer = "СЃРµРјСЊРЅР°РґС†Р°С‚СЊ"; break;
+	case 18: answer = "РІРѕСЃРµРјСЊРЅР°РґС†Р°С‚СЊ"; break;
+		case 19: answer = "РґРµРІСЏС‚РЅР°РґС†Р°С‚СЊ"; break;
 	default: break;
 	}
 	}
